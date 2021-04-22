@@ -64,7 +64,7 @@ while (list($id, $nim, $nama, $notelp, $kelas, $asald, $statusp) = $taaruf->getR
 			<td>" . $statusp . "</td>
 			<td>
 			<button class='btn btn-danger' name = 'hapusbutton'><a href='index.php?id_hapus=" . $id . "' style='color: white; font-weight: bold;'>Hapus</a></button>
-				<button class='btn btn-success' name = 'donestatus'><a href='index.php?id_status=" . $id .  "' style='color: white; font-weight: bold;'>Selesai</a></button>
+				<button class='btn btn-success' name = 'donestatus'><a href='index.php?id_status=" . $id .  "' style='color: white; font-weight: bold;'>Kenalan</a></button>
 			</td>
 			</tr>";
 			$no++;
